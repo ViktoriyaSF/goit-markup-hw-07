@@ -1,0 +1,52 @@
+.hero {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background-color: $background-header;
+    background-image: linear-gradient(to right, #2f303a66, #2f303a66), url('../images/team.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .hero__title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 696px;
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+  
+    color: $up-white-text;
+  
+    text-transform: uppercase;
+  }
+  .hero__button {
+    margin: 0 auto;
+  
+    padding: 10px 32px;
+    min-width: 216px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    color: $up-white-text;
+    background-color: $activ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+    transition: background-color $time $time-function;
+
+    &:focus, &:hover {
+        background-color: $activ-button;
+    }
+  }
